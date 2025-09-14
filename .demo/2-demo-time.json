@@ -1,0 +1,52 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "2 - Demo Time",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Website",
+      "steps": [
+        {
+          "action": "unsetPresentationView"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.focusSideBar"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "url": "https://demotime.elio.dev/",
+          "command": "simpleBrowser.show",
+          "args": "https://demotime.elio.dev/"
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      }
+    },
+    {
+      "title": "Extensions",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.view.extensions"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.extensions.action.clearExtensionsSearchResults"
+        },
+        {
+          "action": "typeText",
+          "content": "Demo Time",
+          "insertTypingSpeed": 100
+        }
+      ],
+      "icons": {
+        "start": "window",
+        "end": ""
+      }
+    }
+  ]
+}

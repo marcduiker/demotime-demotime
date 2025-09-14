@@ -1,0 +1,50 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "1 - Intro",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Title",
+      "steps": [
+        {
+          "action": "setPresentationView"
+        },
+        {
+          "action": "openSlide",
+          "path": "slides/intro/intro.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Bio",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": "slides/intro/bio.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Technical presentations",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": "slides/intro/technical-presentations.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    }
+  ]
+}
