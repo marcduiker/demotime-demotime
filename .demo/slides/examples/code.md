@@ -4,4 +4,4 @@ layout: section
 
 ---
 
-# Code in Demo Time
+# Showing & editing code in Demo Time

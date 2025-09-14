@@ -1,0 +1,21 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "4 - File examples",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Files",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/files.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    }
+  ]
+}
