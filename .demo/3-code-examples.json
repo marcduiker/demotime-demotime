@@ -23,7 +23,7 @@
         {
           "action": "highlight",
           "path": "src/index.js",
-          "position": "3",
+          "position": "4",
           "highlightWholeLine": true
         }
       ],
@@ -38,7 +38,7 @@
         {
           "action": "highlight",
           "path": "src/index.js",
-          "position": "8,13:8,35",
+          "position": "9,13:9,35",
           "highlightWholeLine": false
         }
       ],
@@ -54,7 +54,7 @@
           "action": "insert",
           "path": "src/index.js",
           "content": "console.log(\"Another log line\");",
-          "position": "9",
+          "position": "11",
           "highlightWholeLine": true,
           "insertTypingSpeed": 50,
           "insertTypingMode": "character-by-character"
@@ -62,6 +62,24 @@
       ],
       "icons": {
         "start": "code",
+        "end": ""
+      }
+    },
+    {
+      "title": "Using live input",
+      "steps": [
+        {
+          "action": "write",
+          "path": "src/index.js",
+          "content": "console.log(\"Hello {DT_INPUT}\");",
+          "startPlaceholder": "//<!-- START -->",
+          "endPlaceholder": "//<!-- END -->",
+          "position": "3",
+          "highlightWholeLine": true
+        }
+      ],
+      "icons": {
+        "start": "pencil",
         "end": ""
       }
     },
@@ -75,7 +93,16 @@
           "highlightWholeLine": true,
           "insertTypingSpeed": 50,
           "insertTypingMode": "character-by-character",
-          "position": "9"
+          "position": "3"
+        },
+        {
+          "action": "delete",
+          "path": "src/index.js",
+          "content": "console.log(\"Another log line\");",
+          "highlightWholeLine": true,
+          "insertTypingSpeed": 50,
+          "insertTypingMode": "character-by-character",
+          "position": "10"
         }
       ],
       "icons": {
