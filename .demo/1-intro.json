@@ -12,7 +12,11 @@
         },
         {
           "action": "openSlide",
-          "path": "slides/intro/intro.md"
+          "path": ".demo/slides/intro/intro.md"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "demo-time.startCountdown"
         }
       ],
       "icons": {
@@ -25,7 +29,7 @@
       "steps": [
         {
           "action": "openSlide",
-          "path": "slides/intro/bio.md"
+          "path": ".demo/slides/intro/bio.md"
         }
       ],
       "icons": {
@@ -34,11 +38,40 @@
       }
     },
     {
+      "title": "Scan QR",
+      "steps": [
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      }
+    },
+    {
+      "title": "Poll 1",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "j0mf7d"
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "j0mf7d"
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      }
+    },
+    {
       "title": "Technical presentations",
       "steps": [
         {
           "action": "openSlide",
-          "path": "slides/intro/technical-presentations.md"
+          "path": ".demo/slides/intro/technical-presentations.md"
         }
       ],
       "icons": {
@@ -46,5 +79,8 @@
         "end": ""
       }
     }
-  ]
+  ],
+  "engageTime": {
+    "sessionId": "yxgs5c"
+  }
 }

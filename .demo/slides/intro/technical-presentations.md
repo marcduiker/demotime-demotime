@@ -9,4 +9,4 @@ layout: default
 
 ### - You forget which code file to show
 
-### - You make typos when updating code or run terminal commands
+### - You make typos when writing code or run terminal commands

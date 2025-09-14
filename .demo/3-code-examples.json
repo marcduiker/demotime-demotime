@@ -1,0 +1,99 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "3 - Code examples",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Showing Code",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/code.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Highlighting code 1",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "src/index.js",
+          "position": "3",
+          "highlightWholeLine": true
+        }
+      ],
+      "icons": {
+        "start": "code",
+        "end": ""
+      }
+    },
+    {
+      "title": "Highlighting code 2",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "src/index.js",
+          "position": "8,13:8,35",
+          "highlightWholeLine": false
+        }
+      ],
+      "icons": {
+        "start": "code",
+        "end": ""
+      }
+    },
+    {
+      "title": "Insert code",
+      "steps": [
+        {
+          "action": "insert",
+          "path": "src/index.js",
+          "content": "console.log(\"Another log line\");",
+          "position": "9",
+          "highlightWholeLine": true,
+          "insertTypingSpeed": 50,
+          "insertTypingMode": "character-by-character"
+        }
+      ],
+      "icons": {
+        "start": "code",
+        "end": ""
+      }
+    },
+    {
+      "title": "Remove code",
+      "steps": [
+        {
+          "action": "delete",
+          "path": "src/index.js",
+          "content": "console.log(\"Another log line\");",
+          "highlightWholeLine": true,
+          "insertTypingSpeed": 50,
+          "insertTypingMode": "character-by-character",
+          "position": "9"
+        }
+      ],
+      "icons": {
+        "start": "code",
+        "end": ""
+      }
+    },
+    {
+      "title": "Replace",
+      "steps": [
+        {
+          "action": "replace",
+          "path": "src/index.js",
+          "content": "console.log(\"Counter:\", i);\n  await sleep(500);",
+          "startPlaceholder": "//<!-- START -->",
+          "endPlaceholder": "//<!-- END -->"
+        }
+      ]
+    }
+  ]
+}

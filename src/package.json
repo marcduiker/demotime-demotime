@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-demo",
+  "version": "1.0.0",
+  "description": "A small demo app used for showing Demo Time capabilities.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Marc Duiker",
+  "license": "MIT"
+}

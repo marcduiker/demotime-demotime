@@ -1,0 +1,56 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "4 - Slide Examples",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Slides",
+      "steps": [
+        {
+          "action": "replace",
+          "path": "src/index.js",
+          "content": "  //<!-- START -->\n  //<!-- END -->",
+          "position": "4",
+          "highlightWholeLine": true
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/slides.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Markdown based",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/slide-examples.md",
+          "slide": 1
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Mermaid",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/slide-examples.md",
+          "slide": 2
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "5 - Closing",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Reliable demos",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/closing/closing.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Show QR",
+      "steps": [
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      }
+    }
+  ],
+  "engageTime": {
+    "sessionId": "yxgs5c"
+  }
+}

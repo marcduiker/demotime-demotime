@@ -47,6 +47,39 @@
         "start": "window",
         "end": ""
       }
+    },
+    {
+      "title": "Config Editor",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.explorer.fileView.focus"
+        },
+        {
+          "action": "open",
+          "path": ".demo/2-demo-time.json"
+        }
+      ],
+      "icons": {
+        "start": "file",
+        "end": ""
+      }
+    },
+    {
+      "title": "Demo Time Panel",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "demo-time.treeviewFind"
+        }
+      ],
+      "icons": {
+        "start": "window",
+        "end": ""
+      }
     }
-  ]
+  ],
+  "engageTime": {
+    "sessionId": "yxgs5c"
+  }
 }

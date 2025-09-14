@@ -1,0 +1,35 @@
+body {
+    color: black;
+    background-color: white;
+}
+
+.section {
+    h1 {
+        color: #0095e9;
+        font-size: 4em;
+    }
+
+    h2 {
+        color: #124e89;
+        font-size: 3em;
+    }
+
+    h3 {
+        color: #124e89;
+        font-size: 2em;
+    }
+
+    h4 {
+        color: #124e89;
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    h1, h2, h3, h4 {
+        line-height: 1.5em;
+    }
+}
