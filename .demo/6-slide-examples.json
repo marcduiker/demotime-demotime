@@ -8,6 +8,13 @@
       "title": "Slides",
       "steps": [
         {
+          "action": "setPresentationView"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.toggleStatusbarVisibility"
+        },
+        {
           "action": "replace",
           "path": "src/index.js",
           "content": "  //<!-- START -->\n  //<!-- END -->",
@@ -29,8 +36,7 @@
       "steps": [
         {
           "action": "openSlide",
-          "path": ".demo/slides/examples/slide-examples.md",
-          "slide": 1
+          "path": ".demo/slides/examples/slide-markdown.md"
         }
       ],
       "icons": {
@@ -39,12 +45,56 @@
       }
     },
     {
+      "title": "Theme - Minimal",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/theme-minimal.md"
+        }
+      ]
+    },
+    {
+      "title": "Theme - Monomi",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/theme-monomi.md"
+        }
+      ]
+    },
+    {
+      "title": "Theme - Unnamed",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/theme-unnamed.md"
+        }
+      ]
+    },
+    {
+      "title": "Theme - Quantum",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/theme-quantum.md"
+        }
+      ]
+    },
+    {
+      "title": "Theme - Frost",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/theme-frost.md"
+        }
+      ]
+    },
+    {
       "title": "Mermaid",
       "steps": [
         {
           "action": "openSlide",
-          "path": ".demo/slides/examples/slide-examples.md",
-          "slide": 2
+          "path": ".demo/slides/examples/slide-mermaid.md"
         }
       ],
       "icons": {

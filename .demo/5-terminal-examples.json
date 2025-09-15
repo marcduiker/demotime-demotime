@@ -53,6 +53,10 @@
           "insertTypingMode": "character-by-character",
           "insertTypingSpeed": 100,
           "terminalId": "node-demo"
+        },
+        {
+          "action": "open",
+          "path": "src/index.js"
         }
       ],
       "icons": {
@@ -75,6 +79,23 @@
         "start": "terminal",
         "end": ""
       }
+    },
+    {
+      "title": "Clear",
+      "steps": [
+        {
+          "action": "executeTerminalCommand",
+          "command": "cd ..",
+          "terminalId": "node-demo",
+          "insertTypingSpeed": 100
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "clear",
+          "insertTypingSpeed": 100,
+          "terminalId": "node-demo"
+        }
+      ]
     }
   ]
 }

@@ -49,12 +49,12 @@
         }
       ],
       "icons": {
-        "start": "globe",
+        "start": "device-camera",
         "end": ""
       }
     },
     {
-      "title": "Poll 1",
+      "title": "Poll - # of presentations",
       "steps": [
         {
           "action": "startEngageTimePoll",

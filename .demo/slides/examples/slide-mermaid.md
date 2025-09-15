@@ -4,26 +4,6 @@ layout: default
 
 ---
 
-# Slides are based on Markdown
-
-## Headings
-
-Paragraphs _with_ **formatting**.
-
-- Bullet list item 1
-- Bullet list item 2
-- Bullet list item 3
-
-> Quotes
-
-
-```javascript
-console.log("Code blocks are supported too!");
-```
-
-
----
-
 # Mermaid diagrams 🧜‍♀️
 
 ```mermaid
@@ -49,15 +29,3 @@ graph LR
     D[diagram 🤩]
     A --> B --> C -.->|beautiful| D
 ```
-
----
-
-layout: two-column
-
----
-
-Stuff on the left
-
-::right::
-
-More stuff on the right

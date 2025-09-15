@@ -1,0 +1,60 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "8 - Closing",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Reliable demos",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/closing/closing.md"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "virp76"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "j0mf7d"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Show QR",
+      "steps": [
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "device-camera",
+        "end": ""
+      }
+    },
+    {
+      "title": "Stop",
+      "steps": [
+        {
+          "action": "unsetPresentationView"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.toggleActivityBarVisibility"
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.explorer.fileView.focus"
+        }
+      ]
+    }
+  ],
+  "engageTime": {
+    "sessionId": "yxgs5c"
+  }
+}

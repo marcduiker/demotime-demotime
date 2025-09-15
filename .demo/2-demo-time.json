@@ -49,15 +49,16 @@
       }
     },
     {
-      "title": "Config Editor",
+      "title": "Show Overview",
       "steps": [
         {
           "action": "executeVSCodeCommand",
           "command": "workbench.explorer.fileView.focus"
         },
         {
-          "action": "open",
-          "path": ".demo/2-demo-time.json"
+          "action": "executeVSCodeCommand",
+          "path": ".demo/2-demo-time.json",
+          "command": "demo-time.showOverview"
         }
       ],
       "icons": {

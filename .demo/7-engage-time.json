@@ -1,0 +1,84 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "7 - Engage Time",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Audience engagement",
+      "steps": [
+        {
+          "action": "openSlide",
+          "url": "https://engagetime.live/",
+          "path": ".demo/slides/engagetime/intro.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Engagement Options",
+      "steps": [
+        {
+          "action": "openSlide",
+          "url": "https://engagetime.live/",
+          "path": ".demo/slides/engagetime/options.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      },
+      "id": "demo-mflja9pg-89m6"
+    },
+    {
+      "title": "Engage Time",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "url": "https://engagetime.live/",
+          "command": "simpleBrowser.show",
+          "args": "https://engagetime.live/"
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      }
+    },
+    {
+      "title": "Show QR",
+      "steps": [
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "device-camera",
+        "end": ""
+      }
+    },
+    {
+      "title": "Poll - Try Demo Time?",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "virp76"
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "virp76"
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      }
+    }
+  ],
+  "engageTime": {
+    "sessionId": "yxgs5c"
+  }
+}
