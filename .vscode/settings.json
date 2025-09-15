@@ -1,7 +1,7 @@
 {
     "demoTime.defaultFileType": "json",
     "workbench.statusBar.visible": true,
-    "workbench.editor.showTabs": "none",
+    "workbench.editor.showTabs": "single",
     "workbench.activityBar.location": "default",
     "demoTime.customTheme": ".demo/theme/custom.css",
     "demoTime.slideFooterTemplate": "<footer><span>Marc Duiker</span></footer>"

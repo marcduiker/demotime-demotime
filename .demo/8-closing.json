@@ -50,6 +50,13 @@
         {
           "action": "executeVSCodeCommand",
           "command": "workbench.explorer.fileView.focus"
+        },
+        {
+          "action": "setSetting",
+          "setting": {
+            "key": "workbench.editor.showTabs",
+            "value": "single"
+          }
         }
       ]
     }
