@@ -16,9 +16,9 @@
         },
         {
           "action": "executeVSCodeCommand",
-          "url": "https://demotime.elio.dev/",
+          "url": "https://demotime.show/",
           "command": "simpleBrowser.show",
-          "args": "https://demotime.elio.dev/"
+          "args": "https://demotime.show/"
         }
       ],
       "icons": {
