@@ -51,6 +51,97 @@
         "start": "vm",
         "end": ""
       }
+    },
+    {
+      "title": "Layout - Intro",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-intro.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Layout - Section",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-section.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Layout - Default",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-default.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Layout - Two column",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-two-column.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Layout - Image",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-image.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Layout - Image Left",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-image-left.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
+    },
+    {
+      "title": "Layout - Image Right",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-image-right.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
     }
   ]
 }

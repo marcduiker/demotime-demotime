@@ -49,3 +49,15 @@ graph LR
     D[diagram 🤩]
     A --> B --> C -.->|beautiful| D
 ```
+
+---
+
+layout: two-column
+
+---
+
+Stuff on the left
+
+::right::
+
+More stuff on the right

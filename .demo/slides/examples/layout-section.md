@@ -1,0 +1,7 @@
+---
+
+layout: section
+
+---
+
+# Section Layout
