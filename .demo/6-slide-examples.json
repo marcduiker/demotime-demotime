@@ -11,7 +11,7 @@
           "action": "replace",
           "path": "src/index.js",
           "content": "  //<!-- START -->\n  //<!-- END -->",
-          "position": "4",
+          "position": "5:6",
           "highlightWholeLine": true
         },
         {

@@ -16,6 +16,65 @@
         "start": "vm",
         "end": ""
       }
+    },
+    {
+      "title": "Show terminal",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.terminal.focus"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "clear",
+          "terminalId": "node-demo"
+        }
+      ],
+      "icons": {
+        "start": "terminal",
+        "end": ""
+      }
+    },
+    {
+      "title": "Open folder and list files",
+      "steps": [
+        {
+          "action": "executeTerminalCommand",
+          "command": "cd src",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 100,
+          "terminalId": "node-demo"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "ls",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 100,
+          "terminalId": "node-demo"
+        }
+      ],
+      "icons": {
+        "start": "terminal",
+        "end": ""
+      }
+    },
+    {
+      "title": "Run Node app",
+      "steps": [
+        {
+          "action": "executeTerminalCommand",
+          "command": "npm run start",
+          "terminalId": "node-demo",
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 100
+        }
+      ],
+      "icons": {
+        "start": "terminal",
+        "end": ""
+      }
     }
   ]
 }

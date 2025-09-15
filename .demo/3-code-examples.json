@@ -54,7 +54,7 @@
           "action": "insert",
           "path": "src/index.js",
           "content": "console.log(\"Another log line\");",
-          "position": "11",
+          "position": "10",
           "highlightWholeLine": true,
           "insertTypingSpeed": 50,
           "insertTypingMode": "character-by-character"
@@ -89,7 +89,7 @@
         {
           "action": "delete",
           "path": "src/index.js",
-          "content": "console.log(\"Another log line\");",
+          "content": "",
           "highlightWholeLine": true,
           "insertTypingSpeed": 50,
           "insertTypingMode": "character-by-character",
@@ -98,7 +98,7 @@
         {
           "action": "delete",
           "path": "src/index.js",
-          "content": "console.log(\"Another log line\");",
+          "content": "",
           "highlightWholeLine": true,
           "insertTypingSpeed": 50,
           "insertTypingMode": "character-by-character",
@@ -120,7 +120,11 @@
           "startPlaceholder": "//<!-- START -->",
           "endPlaceholder": "//<!-- END -->"
         }
-      ]
+      ],
+      "icons": {
+        "start": "code",
+        "end": ""
+      }
     }
   ]
 }
