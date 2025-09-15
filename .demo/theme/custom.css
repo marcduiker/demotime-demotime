@@ -3,7 +3,7 @@ body {
     background-color: white;
 }
 
-.section {
+.intro, .section, .default {
     h1 {
         color: #0095e9;
         font-size: 4em;

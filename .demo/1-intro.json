@@ -82,6 +82,19 @@
         "start": "vm",
         "end": ""
       }
+    },
+    {
+      "title": "Solution",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/intro/solution.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
     }
   ],
   "engageTime": {
