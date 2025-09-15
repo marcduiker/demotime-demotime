@@ -16,6 +16,67 @@
         "start": "vm",
         "end": ""
       }
+    },
+    {
+      "title": "View template content",
+      "steps": [
+        {
+          "action": "open",
+          "path": ".demo/file-content/template.html"
+        }
+      ],
+      "icons": {
+        "start": "code",
+        "end": ""
+      }
+    },
+    {
+      "title": "Create a file with content",
+      "steps": [
+        {
+          "action": "create",
+          "path": "src/index.html",
+          "contentPath": ".demo/file-content/template.html"
+        },
+        {
+          "action": "open",
+          "path": "src/index.html"
+        }
+      ],
+      "icons": {
+        "start": "file",
+        "end": ""
+      }
+    },
+    {
+      "title": "Rename file",
+      "steps": [
+        {
+          "action": "rename",
+          "path": "src/index.html",
+          "dest": "src/main.html"
+        }
+      ],
+      "icons": {
+        "start": "file",
+        "end": ""
+      }
+    },
+    {
+      "title": "Delete file",
+      "steps": [
+        {
+          "action": "deleteFile",
+          "path": "src/main.html"
+        },
+        {
+          "action": "closeAll"
+        }
+      ],
+      "icons": {
+        "start": "file",
+        "end": ""
+      }
     }
   ]
 }
