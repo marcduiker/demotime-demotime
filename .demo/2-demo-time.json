@@ -8,13 +8,6 @@
       "title": "Website",
       "steps": [
         {
-          "action": "unsetPresentationView"
-        },
-        {
-          "action": "executeVSCodeCommand",
-          "command": "workbench.action.focusSideBar"
-        },
-        {
           "action": "executeVSCodeCommand",
           "url": "https://demotime.show/",
           "command": "simpleBrowser.show",
@@ -30,6 +23,9 @@
       "title": "Extensions",
       "steps": [
         {
+          "action": "unsetPresentationView"
+        },
+        {
           "action": "executeVSCodeCommand",
           "command": "workbench.view.extensions"
         },
@@ -41,6 +37,10 @@
           "action": "typeText",
           "content": "Demo Time",
           "insertTypingSpeed": 100
+        },
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.toggleActivityBarVisibility"
         }
       ],
       "icons": {

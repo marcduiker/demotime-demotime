@@ -10,6 +10,11 @@
         {
           "action": "openSlide",
           "path": ".demo/slides/closing/closing.md"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "cd ..",
+          "terminalId": "node-demo"
         }
       ],
       "icons": {

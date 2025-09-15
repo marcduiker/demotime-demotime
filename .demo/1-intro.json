@@ -11,6 +11,10 @@
           "action": "setPresentationView"
         },
         {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.toggleStatusbarVisibility"
+        },
+        {
           "action": "openSlide",
           "path": ".demo/slides/intro/intro.md"
         },
