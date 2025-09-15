@@ -51,7 +51,11 @@
           "action": "openSlide",
           "path": ".demo/slides/examples/theme-minimal.md"
         }
-      ]
+      ],
+      "icons": {
+        "start": "symbol-color",
+        "end": ""
+      }
     },
     {
       "title": "Theme - Monomi",
@@ -60,7 +64,11 @@
           "action": "openSlide",
           "path": ".demo/slides/examples/theme-monomi.md"
         }
-      ]
+      ],
+      "icons": {
+        "start": "symbol-color",
+        "end": ""
+      }
     },
     {
       "title": "Theme - Unnamed",
@@ -69,7 +77,11 @@
           "action": "openSlide",
           "path": ".demo/slides/examples/theme-unnamed.md"
         }
-      ]
+      ],
+      "icons": {
+        "start": "symbol-color",
+        "end": ""
+      }
     },
     {
       "title": "Theme - Quantum",
@@ -78,7 +90,11 @@
           "action": "openSlide",
           "path": ".demo/slides/examples/theme-quantum.md"
         }
-      ]
+      ],
+      "icons": {
+        "start": "symbol-color",
+        "end": ""
+      }
     },
     {
       "title": "Theme - Frost",
@@ -87,7 +103,11 @@
           "action": "openSlide",
           "path": ".demo/slides/examples/theme-frost.md"
         }
-      ]
+      ],
+      "icons": {
+        "start": "symbol-color",
+        "end": ""
+      }
     },
     {
       "title": "Mermaid",

@@ -96,6 +96,19 @@
           "terminalId": "node-demo"
         }
       ]
+    },
+    {
+      "title": "Close terminal",
+      "steps": [
+        {
+          "action": "closeTerminal",
+          "terminalId": "node-demo"
+        }
+      ],
+      "icons": {
+        "start": "terminal",
+        "end": ""
+      }
     }
   ]
 }
