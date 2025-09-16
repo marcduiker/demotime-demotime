@@ -93,6 +93,19 @@
         "start": "window",
         "end": ""
       }
+    },
+    {
+      "title": "Demo Time Features",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/demotime/features.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
     }
   ],
   "engageTime": {
