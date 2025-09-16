@@ -3,6 +3,7 @@
     "workbench.statusBar.visible": true,
     "workbench.editor.showTabs": "single",
     "workbench.activityBar.location": "default",
-    "demoTime.customTheme": ".demo/theme/custom.css",
-    "demoTime.slideFooterTemplate": "<footer><span>Marc Duiker</span></footer>"
+    "demoTime.customTheme": "",
+    "demoTime.slideFooterTemplate": "<footer><span>{{name}}</span> | <span>{{website}}</span></footer>",
+    "demoTime.timer": 50
 }

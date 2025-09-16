@@ -27,6 +27,10 @@
         },
         {
           "action": "executeVSCodeCommand",
+          "command": "workbench.action.toggleActivityBarVisibility"
+        },
+        {
+          "action": "executeVSCodeCommand",
           "command": "workbench.view.extensions"
         },
         {
@@ -37,10 +41,6 @@
           "action": "typeText",
           "content": "Demo Time",
           "insertTypingSpeed": 100
-        },
-        {
-          "action": "executeVSCodeCommand",
-          "command": "workbench.action.toggleActivityBarVisibility"
         }
       ],
       "icons": {
@@ -63,6 +63,21 @@
       ],
       "icons": {
         "start": "file",
+        "end": ""
+      }
+    },
+    {
+      "title": "Show Config UI",
+      "steps": [
+        {
+          "action": "open",
+          "command": "demo-time.openConfigEditor",
+          "args": "{\n  \"2-demo-time.json\"\n}",
+          "path": ".demo/2-demo-time.json"
+        }
+      ],
+      "icons": {
+        "start": "window",
         "end": ""
       }
     },
