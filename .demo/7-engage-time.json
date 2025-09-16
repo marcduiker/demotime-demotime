@@ -49,18 +49,6 @@
       }
     },
     {
-      "title": "Show QR",
-      "steps": [
-        {
-          "action": "showEngageTimeSession"
-        }
-      ],
-      "icons": {
-        "start": "device-camera",
-        "end": ""
-      }
-    },
-    {
       "title": "Poll - Try Demo Time?",
       "steps": [
         {

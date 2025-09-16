@@ -18,6 +18,8 @@ graph LR
     A --> B --> C -.->|beautiful| D
 ```
 
+---
+
 ```txt
 ---
 title: Simple Diagram

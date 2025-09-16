@@ -212,6 +212,19 @@
         "start": "vm",
         "end": ""
       }
+    },
+    {
+      "title": "Layout - Headers & Footers",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/examples/layout-header-footer.md"
+        }
+      ],
+      "icons": {
+        "start": "vm",
+        "end": ""
+      }
     }
   ]
 }
