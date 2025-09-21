@@ -98,11 +98,24 @@
       ]
     },
     {
-      "title": "Close terminal",
+      "title": "Close named terminal",
       "steps": [
         {
           "action": "closeTerminal",
           "terminalId": "node-demo"
+        }
+      ],
+      "icons": {
+        "start": "terminal",
+        "end": ""
+      }
+    },
+    {
+      "title": "Kill all terminals",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.action.terminal.killAll"
         }
       ],
       "icons": {
